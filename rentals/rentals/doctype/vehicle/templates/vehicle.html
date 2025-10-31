@@ -1,0 +1,9 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ title |e }}</h1>
+
+<a class="btn btn-info" href="/book-a-ride/new?vehicle={{doc.name}}">Book Ride</a>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
